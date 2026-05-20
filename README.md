@@ -1,6 +1,6 @@
 # Scoreboard Data Extraction Utility
 **Author:** Rish Kumaria  
-**Contact:** rish@example.com
+**Contact:** rishabhpk@hotmail.com
 
 ## What this does
 
