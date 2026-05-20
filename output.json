@@ -1,0 +1,3510 @@
+{
+  "_header": {
+    "candidate": "Rish Kumaria",
+    "extracted_at": "2026-05-20T16:00:24.724812",
+    "metrics_found": 125,
+    "weeks_total": 3
+  },
+  "metrics": {
+    "financial_total_revenue_all_services": {
+      "name": "Total Revenue \n- All Services",
+      "section": null,
+      "focus": "Financial",
+      "source": "EMR",
+      "role": "J",
+      "target_type": "Target",
+      "target_value": "`",
+      "unit": "currency",
+      "definitions": [
+        "Row 2: ======\nID#AAAB5DgiDg8\n    (2026-04-29 16:56:49)\nEnter the total revenue billed across all services for a given week"
+      ],
+      "source_links": [],
+      "excel_info": {
+        "column": "B",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "financial_total_product_revenue_all_services": {
+      "name": "Total Product Revenue - All Services",
+      "section": null,
+      "focus": "Financial",
+      "source": "EMR",
+      "role": "J",
+      "target_type": null,
+      "target_value": null,
+      "unit": "currency",
+      "definitions": [],
+      "source_links": [],
+      "excel_info": {
+        "column": "C",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "financial_theraguns_sold": {
+      "name": "Theraguns Sold (#)",
+      "section": null,
+      "focus": "Financial",
+      "source": "EMR",
+      "role": "J",
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [],
+      "source_links": [],
+      "excel_info": {
+        "column": "D",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "financial_pillows": {
+      "name": "Pillows",
+      "section": null,
+      "focus": "Financial",
+      "source": "EMR",
+      "role": "J",
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [],
+      "source_links": [],
+      "excel_info": {
+        "column": "E",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "financial_custom_knee_brace": {
+      "name": "Custom Knee Brace",
+      "section": null,
+      "focus": "Financial",
+      "source": "EMR",
+      "role": "J",
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [],
+      "source_links": [],
+      "excel_info": {
+        "column": "F",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "financial_orthotics": {
+      "name": "Orthotics",
+      "section": null,
+      "focus": "Financial",
+      "source": "EMR",
+      "role": "J",
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [],
+      "source_links": [],
+      "excel_info": {
+        "column": "G",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "collection_total_payments_all_services": {
+      "name": "Total Payments - All Services",
+      "section": null,
+      "focus": "Collection",
+      "source": "EMR",
+      "role": "J",
+      "target_type": null,
+      "target_value": null,
+      "unit": "currency",
+      "definitions": [
+        "Row 2: ======\nID#AAAB5DgiDfI\n    (2026-04-29 16:56:49)\nEnter the total payments collected across all services for a given week\n\n\"APPLIED PAYMENTS\""
+      ],
+      "source_links": [],
+      "excel_info": {
+        "column": "H",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "collection_revenue_collected_4_wk_avg": {
+      "name": "Revenue Collected (4 wk avg)",
+      "section": null,
+      "focus": "Collection",
+      "source": "Ratio",
+      "role": "J",
+      "target_type": null,
+      "target_value": null,
+      "unit": "percent",
+      "definitions": [
+        "Row 2: ======\nID#AAAB5DgiDg0\n    (2026-04-29 16:56:49)\nShows the % of total revenue collected across all services for a running 4 week average"
+      ],
+      "source_links": [],
+      "excel_info": {
+        "column": "I",
+        "is_hidden": false
+      },
+      "is_calculated": true
+    },
+    "collection_ar_90_days": {
+      "name": "AR > 90 days",
+      "section": null,
+      "focus": "Collection",
+      "source": "EMR",
+      "role": "J",
+      "target_type": null,
+      "target_value": null,
+      "unit": "currency",
+      "definitions": [],
+      "source_links": [],
+      "excel_info": {
+        "column": "J",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "collection_total_ar": {
+      "name": "Total AR",
+      "section": null,
+      "focus": "Collection",
+      "source": "EMR",
+      "role": "J",
+      "target_type": null,
+      "target_value": null,
+      "unit": "currency",
+      "definitions": [],
+      "source_links": [],
+      "excel_info": {
+        "column": "K",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "online_bookings_via_jane": {
+      "name": "Online Bookings Via Jane",
+      "section": null,
+      "focus": "Bookings",
+      "source": "EMR",
+      "role": "J",
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [],
+      "source_links": [],
+      "excel_info": {
+        "column": "L",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "marketing_consult_requests": {
+      "name": "Consult Requests",
+      "section": null,
+      "focus": "Marketing",
+      "source": "Form",
+      "role": null,
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [],
+      "source_links": [],
+      "excel_info": {
+        "column": "M",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "marketing_consults_turned_ax": {
+      "name": "Consults turned Ax",
+      "section": null,
+      "focus": "Marketing",
+      "source": "EMR",
+      "role": null,
+      "target_type": null,
+      "target_value": null,
+      "unit": "percent",
+      "definitions": [],
+      "source_links": [],
+      "excel_info": {
+        "column": "N",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "marketing_total_ax_all_services": {
+      "name": "Total Ax \n- All Services",
+      "section": null,
+      "focus": "Marketing",
+      "source": "EMR",
+      "role": "J",
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [
+        "Row 2: ======\nID#AAAB5DgiDfQ\n    (2026-04-29 16:56:49)\nEnter the total Assessments completed across all services for a given week"
+      ],
+      "source_links": [],
+      "excel_info": {
+        "column": "O",
+        "is_hidden": true
+      },
+      "is_calculated": false
+    },
+    "marketing_ax_4_week_avg": {
+      "name": "Ax 4 Week Avg",
+      "section": null,
+      "focus": "Marketing",
+      "source": "GS",
+      "role": "J",
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [],
+      "source_links": [],
+      "excel_info": {
+        "column": "P",
+        "is_hidden": false
+      },
+      "is_calculated": true
+    },
+    "caseload_of_rx_clinic_wide": {
+      "name": "# of Rx (Clinic Wide)",
+      "section": null,
+      "focus": "Caseload",
+      "source": "EMR",
+      "role": "J",
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [],
+      "source_links": [],
+      "excel_info": {
+        "column": "Q",
+        "is_hidden": false
+      },
+      "is_calculated": true
+    },
+    "global_clinic_pva": {
+      "name": "Clinic PVA",
+      "section": null,
+      "focus": null,
+      "source": null,
+      "role": null,
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [],
+      "source_links": [],
+      "excel_info": {
+        "column": "R",
+        "is_hidden": false
+      },
+      "is_calculated": true
+    },
+    "caseload_cross_referral_ax_total": {
+      "name": "CROSS REFERRAL AX (Total)",
+      "section": null,
+      "focus": "Caseload",
+      "source": "NAR",
+      "role": "Nicole",
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [],
+      "source_links": [],
+      "excel_info": {
+        "column": "T",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "global_unlabeled_metric_u": {
+      "name": "Unlabeled Metric (U)",
+      "section": null,
+      "focus": null,
+      "source": null,
+      "role": null,
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [],
+      "source_links": [],
+      "excel_info": {
+        "column": "U",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "treatment_plan_submitted": {
+      "name": "Submitted",
+      "section": null,
+      "focus": "Treatment Plan",
+      "source": "Jane",
+      "role": "J",
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [
+        "Row 2: ======\nID#AAAB5DgiDiU\n    (2026-04-29 16:56:49)\n1 Call right away process - What is the way to get notified on a cancellation ASAP? (Look into Jane) - CURRENTLY ON THIS (Jul 12,2022)\n\nLook at cancelled calls, what is happening on the call, reason for cancel etc - how do we adapt as we go forward?\n\n\n2\tIncrease hours required for an online cancel to 48/72 hours\n\n3\tTake away ability to cancel online"
+      ],
+      "source_links": [],
+      "excel_info": {
+        "column": "V",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "treatment_plan_unsubmitted": {
+      "name": "Unsubmitted",
+      "section": null,
+      "focus": "Treatment Plan",
+      "source": "Jane",
+      "role": "J",
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [],
+      "source_links": [],
+      "excel_info": {
+        "column": "W",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "new_clients_cancelled_total_ax": {
+      "name": "Cancelled \n Total Ax",
+      "section": null,
+      "focus": "New Clients",
+      "source": "EMR",
+      "role": "J",
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [
+        "Row 2: ======\nID#AAAB5DgiDgE\n    (2026-04-29 16:56:49)\n1 Call right away process - What is the way to get notified on a cancellation ASAP? (Look into Jane) - CURRENTLY ON THIS (Jul 12,2022)\n\nLook at cancelled calls, what is happening on the call, reason for cancel etc - how do we adapt as we go forward?\n\n\n2\tIncrease hours required for an online cancel to 48/72 hours\n\n3\tTake away ability to cancel online"
+      ],
+      "source_links": [],
+      "excel_info": {
+        "column": "Y",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "cancelled_ax_online": {
+      "name": "Cancelled \nAx (Online)",
+      "section": null,
+      "focus": "Online",
+      "source": "EMR",
+      "role": "J ",
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [],
+      "source_links": [],
+      "excel_info": {
+        "column": "Z",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "cancelled_ax_online_aa": {
+      "name": "Cancelled Ax Online %",
+      "section": null,
+      "focus": "Online",
+      "source": "EMR",
+      "role": "J",
+      "target_type": null,
+      "target_value": null,
+      "unit": "percent",
+      "definitions": [],
+      "source_links": [],
+      "excel_info": {
+        "column": "AA",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "cancelled_online_ax_winback": {
+      "name": "Cancelled Online Ax WINBACK",
+      "section": null,
+      "focus": "Online",
+      "source": "EMR",
+      "role": "J",
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [],
+      "source_links": [],
+      "excel_info": {
+        "column": "AB",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "caseload_cancellation": {
+      "name": "Cancellation %",
+      "section": null,
+      "focus": "Caseload",
+      "source": "EMR",
+      "role": "J",
+      "target_type": null,
+      "target_value": null,
+      "unit": "percent",
+      "definitions": [],
+      "source_links": [],
+      "excel_info": {
+        "column": "AC",
+        "is_hidden": true
+      },
+      "is_calculated": true
+    },
+    "caseload_of_fall_offs_total": {
+      "name": "# of Fall Offs\n(Total)",
+      "section": null,
+      "focus": "Caseload",
+      "source": "EMR",
+      "role": "J",
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [],
+      "source_links": [],
+      "excel_info": {
+        "column": "AD",
+        "is_hidden": true
+      },
+      "is_calculated": false
+    },
+    "caseload_fall_off_called": {
+      "name": "Fall Off % Called",
+      "section": null,
+      "focus": "Caseload",
+      "source": "Tracker",
+      "role": "Nicole",
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [],
+      "source_links": [],
+      "excel_info": {
+        "column": "AE",
+        "is_hidden": true
+      },
+      "is_calculated": false
+    },
+    "marketing_fb_reviews": {
+      "name": "FB Reviews",
+      "section": null,
+      "focus": "Marketing",
+      "source": "Facebook",
+      "role": "J",
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [
+        "Row 2: ======\nID#AAAB5DgiDhg\n    (2026-04-29 16:56:49)\nEnter the total number of Facebook reviews to date for a given week"
+      ],
+      "source_links": [],
+      "excel_info": {
+        "column": "AG",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "marketing_google_reviews": {
+      "name": "Google Reviews",
+      "section": null,
+      "focus": "Marketing",
+      "source": "Google",
+      "role": "J",
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [
+        "Row 2: ======\nID#AAAB5DgiDfs\n    (2026-04-29 16:56:49)\nEnter the total number of Google Reviews to date for a given week"
+      ],
+      "source_links": [],
+      "excel_info": {
+        "column": "AH",
+        "is_hidden": true
+      },
+      "is_calculated": false
+    },
+    "phone_performance_total_calls_5530": {
+      "name": "Total Calls (5530)",
+      "section": "PHONE PERFORMANCE",
+      "focus": "Phone",
+      "source": "CallHero",
+      "role": "J",
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [
+        "Row 2: ======\nID#AAAB5DgiDhE\n    (2026-04-29 16:56:49)\nEnter the total number of incoming phone calls for a given week"
+      ],
+      "source_links": [],
+      "excel_info": {
+        "column": "AJ",
+        "is_hidden": true
+      },
+      "is_calculated": false
+    },
+    "phone_performance_missed_calls": {
+      "name": "Missed Calls",
+      "section": "PHONE PERFORMANCE",
+      "focus": "Phone",
+      "source": "CallHero",
+      "role": "J",
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [
+        "Row 2: ======\nID#AAAB5DgiDiI\n    (2026-04-29 16:56:49)\nEnter the total number of missed phone calls for a given week"
+      ],
+      "source_links": [],
+      "excel_info": {
+        "column": "AK",
+        "is_hidden": true
+      },
+      "is_calculated": false
+    },
+    "phone_performance_answer_rate": {
+      "name": "Answer Rate",
+      "section": "PHONE PERFORMANCE",
+      "focus": "Answer",
+      "source": "CallHero",
+      "role": "J",
+      "target_type": null,
+      "target_value": null,
+      "unit": "percent",
+      "definitions": [
+        "Row 2: ======\nID#AAAB5DgiDic\n    (2026-04-29 16:56:49)\nEnter the phone answer rate for a given week"
+      ],
+      "source_links": [],
+      "excel_info": {
+        "column": "AL",
+        "is_hidden": true
+      },
+      "is_calculated": false
+    },
+    "phone_performance_booking_rate": {
+      "name": "Booking Rate",
+      "section": "PHONE PERFORMANCE",
+      "focus": "Book",
+      "source": "CallHero",
+      "role": "J",
+      "target_type": null,
+      "target_value": null,
+      "unit": "percent",
+      "definitions": [
+        "Row 2: ======\nID#AAAB5DgiDig\n    (2026-04-29 16:56:49)\nEnter the new patient booking rate over the phone for a given week"
+      ],
+      "source_links": [],
+      "excel_info": {
+        "column": "AM",
+        "is_hidden": true
+      },
+      "is_calculated": false
+    },
+    "phone_performance_nbo": {
+      "name": "NBO",
+      "section": "PHONE PERFORMANCE",
+      "focus": "Phone",
+      "source": "CallHero",
+      "role": "J",
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [
+        "Row 2: ======\nID#AAAB5DgiDhM\n    (2026-04-29 16:56:49)\nNBO (New Business Opportunities)\n\nEnter the total number of new patients that called for a given week"
+      ],
+      "source_links": [],
+      "excel_info": {
+        "column": "AN",
+        "is_hidden": true
+      },
+      "is_calculated": false
+    },
+    "phone_performance_dnb": {
+      "name": "DNB",
+      "section": "PHONE PERFORMANCE",
+      "focus": "Phone",
+      "source": "CallHero",
+      "role": "J",
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [
+        "Row 2: ======\nID#AAAB5DgiDiM\n    (2026-04-29 16:56:49)\nDND (Did Not Book)\n\nEnter the total number of new patients that called but did not book an appointment for a given week"
+      ],
+      "source_links": [],
+      "excel_info": {
+        "column": "AO",
+        "is_hidden": true
+      },
+      "is_calculated": false
+    },
+    "phone_performance_winback_ax_only": {
+      "name": "Winback (Ax Only)",
+      "section": "PHONE PERFORMANCE",
+      "focus": "Phone",
+      "source": "CallHero",
+      "role": "J",
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [],
+      "source_links": [],
+      "excel_info": {
+        "column": "AP",
+        "is_hidden": true
+      },
+      "is_calculated": false
+    },
+    "tx_plan_nar_collected_at_ax": {
+      "name": "NAR Collected at Ax",
+      "section": null,
+      "focus": "Tx Plan",
+      "source": "NAR",
+      "role": "J",
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [
+        "Row 2: ======\nID#AAAB5DgiDiE\n    (2026-04-29 16:56:49)\nNPR (New Assessment Registry) \n\nEnter the total number of new patients registered at Assessment across all services for a given week"
+      ],
+      "source_links": [],
+      "excel_info": {
+        "column": "AR",
+        "is_hidden": true
+      },
+      "is_calculated": false
+    },
+    "tx_plan_nar_collected_at_ax_as": {
+      "name": "NAR % Collected at Ax",
+      "section": null,
+      "focus": "Tx Plan",
+      "source": "Formula",
+      "role": "J",
+      "target_type": null,
+      "target_value": "100% Target",
+      "unit": "percent",
+      "definitions": [
+        "Row 2: ======\nID#AAAB5DgiDh8\n    (2026-04-29 16:56:49)\nShows the % of new patients (Assessments) that were registered across all services for a given week"
+      ],
+      "source_links": [],
+      "excel_info": {
+        "column": "AS",
+        "is_hidden": true
+      },
+      "is_calculated": true
+    },
+    "tx_plan_average_prescribed": {
+      "name": "Average \nPrescribed",
+      "section": null,
+      "focus": "Tx Plan",
+      "source": "NAR",
+      "role": "J",
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [],
+      "source_links": [],
+      "excel_info": {
+        "column": "AT",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "tx_plan_booked_prescribed_total": {
+      "name": "Booked:Prescribed % \n(Total)",
+      "section": null,
+      "focus": "Tx Plan",
+      "source": "Formula",
+      "role": "J",
+      "target_type": null,
+      "target_value": "Target = 75%",
+      "unit": "percent",
+      "definitions": [
+        "Row 2: ======\nID#AAAB5DgiDgk\n    (2026-04-29 16:56:49)\nShows the % of new patients (Assessments) that were registered across all services for a given week"
+      ],
+      "source_links": [],
+      "excel_info": {
+        "column": "AU",
+        "is_hidden": false
+      },
+      "is_calculated": true
+    },
+    "of_tx_plan_given": {
+      "name": "# of Tx Plan Given",
+      "section": null,
+      "focus": "Tx Plan",
+      "source": "NAR",
+      "role": "J",
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [
+        "Row 2: ======\nID#AAAB5DgiDf4\n    (2026-04-29 16:56:49)\nNPR (New Assessment Registry) \n\nEnter the total number of new patients registered at Assessment across all services for a given week"
+      ],
+      "source_links": [],
+      "excel_info": {
+        "column": "AV",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "tx_plan_used": {
+      "name": "% Tx Plan Used",
+      "section": null,
+      "focus": "Tx Plan",
+      "source": "NAR",
+      "role": "J",
+      "target_type": null,
+      "target_value": "Target = 80%",
+      "unit": "percent",
+      "definitions": [],
+      "source_links": [],
+      "excel_info": {
+        "column": "AW",
+        "is_hidden": true
+      },
+      "is_calculated": true
+    },
+    "satisfaction_nps_collected_at_ax": {
+      "name": "NPS Collected at Ax",
+      "section": null,
+      "focus": "Satisfaction",
+      "source": "NPS ",
+      "role": "BETH",
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [
+        "Row 2: ======\nID#AAAB5DgiDhY\n    (2026-04-29 16:56:49)\nNPS (Net Promoter Score)\n\nEnter the number of patient satisfaction cards completed at Assessment across all services for a given week"
+      ],
+      "source_links": [],
+      "excel_info": {
+        "column": "AX",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "satisfaction_nps_collected_at_ax_ay": {
+      "name": "NPS % Collected at Ax",
+      "section": null,
+      "focus": "Satisfaction",
+      "source": "Formula",
+      "role": "BETH",
+      "target_type": null,
+      "target_value": null,
+      "unit": "percent",
+      "definitions": [
+        "Row 2: ======\nID#AAAB5DgiDgM\n    (2026-04-29 16:56:49)\nShows the % of NPS completed at Assessment across all services for a given week"
+      ],
+      "source_links": [],
+      "excel_info": {
+        "column": "AY",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "rapport_follow_up_won": {
+      "name": "Follow-up \nwon",
+      "section": null,
+      "focus": "Rapport",
+      "source": "Tracker",
+      "role": "BETH",
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [
+        "Row 2: ======\nID#AAAB5DgiDfg\n    (2026-04-29 16:56:49)\nEnter the total number of patients that booked an appointment during a patient follow-up call for a given week\n\nFollow-up - patients that have been discharged and we called to see how they are doing"
+      ],
+      "source_links": [
+        "https://docs.google.com/spreadsheets/d/1s496B9UDR0V6aowT5LYZIpAazEDG9mXXPINFQ_cf1ls/edit?usp=sharing"
+      ],
+      "excel_info": {
+        "column": "AZ",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "commitment_dropped_clients_won": {
+      "name": "Dropped Clients\nwon",
+      "section": null,
+      "focus": "Commitment",
+      "source": "Tracker",
+      "role": "BETH",
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [
+        "Row 2: ======\nID#AAAB5DgiDhk\n    (2026-04-29 16:56:49)\nEnter the total number of patients that booked an appointment during a patient fall-off call for a given week\n\nFall-off - patients that have not been discharged, have not had an appointment in at least 1 week, and do not have a future appointment booked"
+      ],
+      "source_links": [
+        "https://docs.google.com/spreadsheets/d/1rvlKu2jEbKbuiyAycq48R43M4TBOrds5lktcHJHBvik/edit?usp=sharing"
+      ],
+      "excel_info": {
+        "column": "BA",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "global_nar_submission": {
+      "name": "NAR Submission",
+      "section": null,
+      "focus": null,
+      "source": null,
+      "role": null,
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [],
+      "source_links": [],
+      "excel_info": {
+        "column": "BC",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "global_nar_percentage": {
+      "name": "NAR Percentage",
+      "section": null,
+      "focus": null,
+      "source": null,
+      "role": null,
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [],
+      "source_links": [],
+      "excel_info": {
+        "column": "BD",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "global_shockwave_alone": {
+      "name": "Shockwave Alone",
+      "section": null,
+      "focus": null,
+      "source": "EMR",
+      "role": null,
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [],
+      "source_links": [],
+      "excel_info": {
+        "column": "BF",
+        "is_hidden": true
+      },
+      "is_calculated": false
+    },
+    "global_shockwave_pt": {
+      "name": "Shockwave + PT",
+      "section": null,
+      "focus": null,
+      "source": "EMR",
+      "role": null,
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [],
+      "source_links": [],
+      "excel_info": {
+        "column": "BG",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "global_total_shockwave_revenue": {
+      "name": "Total Shockwave Revenue",
+      "section": null,
+      "focus": null,
+      "source": "EMR",
+      "role": null,
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [],
+      "source_links": [],
+      "excel_info": {
+        "column": "BH",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "beth_total_patient_database": {
+      "name": "Total Patient Database",
+      "section": null,
+      "focus": "Beth",
+      "source": null,
+      "role": null,
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [],
+      "source_links": [],
+      "excel_info": {
+        "column": "BJ",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "paula_total_active_patients": {
+      "name": "Total Active Patients",
+      "section": null,
+      "focus": "Paula",
+      "source": null,
+      "role": null,
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [],
+      "source_links": [],
+      "excel_info": {
+        "column": "BK",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "tracy_calls_made_by_other_clinicians": {
+      "name": "Calls made by Other Clinicians",
+      "section": null,
+      "focus": "Tracy",
+      "source": null,
+      "role": null,
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [],
+      "source_links": [],
+      "excel_info": {
+        "column": "BL",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "global_ahs_active_clients": {
+      "name": "AHS active clients",
+      "section": null,
+      "focus": null,
+      "source": null,
+      "role": null,
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [],
+      "source_links": [],
+      "excel_info": {
+        "column": "BM",
+        "is_hidden": true
+      },
+      "is_calculated": false
+    },
+    "global_total_active_called": {
+      "name": "Total Active Called",
+      "section": null,
+      "focus": null,
+      "source": null,
+      "role": null,
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [],
+      "source_links": [],
+      "excel_info": {
+        "column": "BN",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "tracy_discovery_booked": {
+      "name": "Discovery Booked",
+      "section": null,
+      "focus": "Tracy",
+      "source": null,
+      "role": null,
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [],
+      "source_links": [],
+      "excel_info": {
+        "column": "BO",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "tracy_md_faxees_sent": {
+      "name": "MD faxees sent",
+      "section": null,
+      "focus": "Tracy",
+      "source": null,
+      "role": null,
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [],
+      "source_links": [],
+      "excel_info": {
+        "column": "BP",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "paula_md_s_called": {
+      "name": "MD's called",
+      "section": null,
+      "focus": "Paula",
+      "source": null,
+      "role": null,
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [],
+      "source_links": [],
+      "excel_info": {
+        "column": "BQ",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "paula_emails_sent": {
+      "name": "Emails Sent",
+      "section": null,
+      "focus": "Paula",
+      "source": null,
+      "role": null,
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [],
+      "source_links": [],
+      "excel_info": {
+        "column": "BR",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "paula_open_rate": {
+      "name": "Open Rate",
+      "section": null,
+      "focus": "Paula",
+      "source": null,
+      "role": null,
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [],
+      "source_links": [],
+      "excel_info": {
+        "column": "BS",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "paula_email_responses": {
+      "name": "Email Responses",
+      "section": null,
+      "focus": "Paula",
+      "source": null,
+      "role": null,
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [],
+      "source_links": [],
+      "excel_info": {
+        "column": "BT",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "beth_outgoing_calls": {
+      "name": "Beth Outgoing Calls",
+      "section": null,
+      "focus": "Beth",
+      "source": "OBJECTIONS",
+      "role": null,
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [],
+      "source_links": [],
+      "excel_info": {
+        "column": "BU",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "beth_incoming_calls": {
+      "name": "Beth incoming Calls",
+      "section": null,
+      "focus": "Beth  ",
+      "source": "HOOKS",
+      "role": "DISOVERY calls ",
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [],
+      "source_links": [],
+      "excel_info": {
+        "column": "BV",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "beth_total_calls": {
+      "name": "Total Calls",
+      "section": null,
+      "focus": "Beth",
+      "source": null,
+      "role": null,
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [],
+      "source_links": [],
+      "excel_info": {
+        "column": "BW",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "beth_discovery_call_booked": {
+      "name": "Discovery Call Booked",
+      "section": null,
+      "focus": "Beth",
+      "source": null,
+      "role": null,
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [],
+      "source_links": [],
+      "excel_info": {
+        "column": "BX",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "global_conversion": {
+      "name": "Conversion",
+      "section": null,
+      "focus": null,
+      "source": null,
+      "role": null,
+      "target_type": null,
+      "target_value": null,
+      "unit": "percent",
+      "definitions": [],
+      "source_links": [],
+      "excel_info": {
+        "column": "BY",
+        "is_hidden": true
+      },
+      "is_calculated": false
+    },
+    "tracy_paula_discovery_call_delivered": {
+      "name": "Discovery Call Delivered",
+      "section": null,
+      "focus": "Tracy+Paula",
+      "source": null,
+      "role": null,
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [],
+      "source_links": [],
+      "excel_info": {
+        "column": "BZ",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "paula_paid_virtual_delivered": {
+      "name": "Paid Virtual Delivered",
+      "section": null,
+      "focus": "Paula",
+      "source": null,
+      "role": "innocare",
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [],
+      "source_links": [],
+      "excel_info": {
+        "column": "CA",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "beth_virtual_revenue": {
+      "name": "Virtual Revenue",
+      "section": null,
+      "focus": "Beth",
+      "source": null,
+      "role": null,
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [],
+      "source_links": [],
+      "excel_info": {
+        "column": "CB",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "global_visit": {
+      "name": "$$/Visit",
+      "section": null,
+      "focus": null,
+      "source": null,
+      "role": null,
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [],
+      "source_links": [],
+      "excel_info": {
+        "column": "CC",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "global_conversion_cd": {
+      "name": "Conversion",
+      "section": null,
+      "focus": null,
+      "source": null,
+      "role": null,
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [],
+      "source_links": [],
+      "excel_info": {
+        "column": "CD",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "global_in_person_visit": {
+      "name": "In-Person Visit",
+      "section": null,
+      "focus": null,
+      "source": null,
+      "role": null,
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [],
+      "source_links": [],
+      "excel_info": {
+        "column": "CE",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "global_md_f_u_post_vv_tx_calls": {
+      "name": "MD F/U post  VV tx calls",
+      "section": null,
+      "focus": null,
+      "source": null,
+      "role": null,
+      "target_type": null,
+      "target_value": null,
+      "unit": "currency",
+      "definitions": [],
+      "source_links": [],
+      "excel_info": {
+        "column": "CG",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "financial_pt_total_revenue": {
+      "name": "PT Total Revenue",
+      "section": null,
+      "focus": "Financial",
+      "source": "EMR",
+      "role": "J",
+      "target_type": null,
+      "target_value": null,
+      "unit": "currency",
+      "definitions": [
+        "Row 2: ======\nID#AAAB5DgiDgs\n    (2026-04-29 16:56:49)\nEnter the total amount of revenue billed for the service for a given week"
+      ],
+      "source_links": [],
+      "excel_info": {
+        "column": "CJ",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "marketing_pt_ax": {
+      "name": "PT Ax",
+      "section": null,
+      "focus": "Marketing",
+      "source": "EMR",
+      "role": "J",
+      "target_type": null,
+      "target_value": "Formula",
+      "unit": null,
+      "definitions": [
+        "Row 2: ======\nID#AAAB5DgiDho\n    (2026-04-29 16:56:49)\nEnter the total number of Assessments completed for the service for a given week"
+      ],
+      "source_links": [],
+      "excel_info": {
+        "column": "CK",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "commitment_pt_tx": {
+      "name": "PT Tx",
+      "section": null,
+      "focus": "Commitment",
+      "source": "EMR",
+      "role": "J",
+      "target_type": null,
+      "target_value": 426,
+      "unit": null,
+      "definitions": [
+        "Row 2: ======\nID#AAAB5DgiDgQ\n    (2026-04-29 16:56:49)\nEnter the total number of treatments completed for the service for a given week"
+      ],
+      "source_links": [],
+      "excel_info": {
+        "column": "CL",
+        "is_hidden": false
+      },
+      "is_calculated": true
+    },
+    "pt_ahs_ax": {
+      "name": "PT AHS Ax",
+      "section": null,
+      "focus": "AHS",
+      "source": "EMR",
+      "role": "J",
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [
+        "Row 2: ======\nID#AAAB5DgiDhQ\n    (2026-04-29 16:56:49)\nIn product report, please count the number of AHS Assessments (Ax)"
+      ],
+      "source_links": [],
+      "excel_info": {
+        "column": "CM",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "of_total_ax_ahs": {
+      "name": "% of Total Ax (AHS)",
+      "section": null,
+      "focus": "AHS",
+      "source": "EMR",
+      "role": "J",
+      "target_type": null,
+      "target_value": null,
+      "unit": "percent",
+      "definitions": [],
+      "source_links": [],
+      "excel_info": {
+        "column": "CN",
+        "is_hidden": false
+      },
+      "is_calculated": true
+    },
+    "pt_ahs_tx_total": {
+      "name": "PT AHS Tx (Total)",
+      "section": null,
+      "focus": "AHS",
+      "source": "EMR",
+      "role": "J",
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [
+        "Row 2: ======\nID#AAAB5DgiDf8\n    (2026-04-29 16:56:49)\nIn product report, please count the number of AHS Treatment (Tx)"
+      ],
+      "source_links": [],
+      "excel_info": {
+        "column": "CO",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "pt_ahs_ax_hip_knee_class": {
+      "name": "PT AHS \nAx (Hip&Knee Class)",
+      "section": null,
+      "focus": "AHS",
+      "source": "EMR",
+      "role": "J",
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [],
+      "source_links": [],
+      "excel_info": {
+        "column": "CP",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "pt_ahs_tx_hip_knee_class": {
+      "name": "PT AHS Tx (Hip&Knee Class)",
+      "section": null,
+      "focus": "AHS",
+      "source": "EMR",
+      "role": "J",
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [],
+      "source_links": [],
+      "excel_info": {
+        "column": "CQ",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "commitment_pva_4_wk_avg": {
+      "name": "PVA \n(4 wk avg)",
+      "section": null,
+      "focus": "Commitment",
+      "source": "Formula",
+      "role": "J",
+      "target_type": null,
+      "target_value": 213,
+      "unit": null,
+      "definitions": [
+        "Row 2: ======\nID#AAAB5DgiDfk\n    (2026-04-29 16:56:49)\nPVA (Patient Visit Average) \n\nShows the average number of treatments sessions per Assessment completed for the service for a running 4 week average"
+      ],
+      "source_links": [],
+      "excel_info": {
+        "column": "CR",
+        "is_hidden": false
+      },
+      "is_calculated": true
+    },
+    "caseload_pt_available_appts": {
+      "name": "PT Available appts",
+      "section": null,
+      "focus": "Caseload",
+      "source": "Estimate",
+      "role": "J",
+      "target_type": null,
+      "target_value": "Single (2/hr) Team (4/hr )",
+      "unit": null,
+      "definitions": [
+        "Row 2: ======\nID#AAAB5DgiDh4\n    (2026-04-29 16:56:49)\nEnter the total number of available appointments for the service for a given week.\n\nNote: This is number of appointments NOT hours",
+        "Row 7: ======\nID#AAAB5DgiDiA\n    (2026-04-29 16:56:49)\nDo it based on the hours worked X below\n\nSingle 2/hour\nAdd kine as 2/hour slot (as if they are a physio)\nTeam 4/hour"
+      ],
+      "source_links": [],
+      "excel_info": {
+        "column": "CS",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "caseload_pt_total_available_hours_total": {
+      "name": "PT Total Available Hours \n(Total)",
+      "section": null,
+      "focus": "Caseload",
+      "source": "EMR",
+      "role": "J",
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [],
+      "source_links": [],
+      "excel_info": {
+        "column": "CT",
+        "is_hidden": false
+      },
+      "is_calculated": true
+    },
+    "caseload_pt_total_available_hours_pt_only": {
+      "name": "PT Total Available Hours \n(PT only)",
+      "section": null,
+      "focus": "Caseload",
+      "source": "EMR",
+      "role": "J",
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [],
+      "source_links": [],
+      "excel_info": {
+        "column": "CU",
+        "is_hidden": false
+      },
+      "is_calculated": true
+    },
+    "caseload_pt_total_booked_hours": {
+      "name": "PT Total BOOKED hours",
+      "section": null,
+      "focus": "Caseload",
+      "source": "EMR",
+      "role": "J",
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [],
+      "source_links": [],
+      "excel_info": {
+        "column": "CV",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "caseload_pt_arrived_appts": {
+      "name": "PT Arrived appts",
+      "section": null,
+      "focus": "Caseload",
+      "source": "EMR",
+      "role": "J",
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [
+        "Row 2: ======\nID#AAAB5DgiDgY\n    (2026-04-29 16:56:49)\nEnter the total number of booked appointments (Ax + Tx) for the service for a given week\n\nNote: This is number of appointments NOT hours"
+      ],
+      "source_links": [],
+      "excel_info": {
+        "column": "CW",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "caseload_utilization_with_kines": {
+      "name": "Utilization (With Kines)",
+      "section": null,
+      "focus": "Caseload",
+      "source": "Formula",
+      "role": "J",
+      "target_type": null,
+      "target_value": "Target = 60%",
+      "unit": "percent",
+      "definitions": [
+        "Row 2: ======\nID#AAAB5DgiDfM\n    (2026-04-29 16:56:49)\nShows the percent of available appointments that were booked for the service for a given week"
+      ],
+      "source_links": [],
+      "excel_info": {
+        "column": "CX",
+        "is_hidden": false
+      },
+      "is_calculated": true
+    },
+    "caseload_utilization_without_kines": {
+      "name": "Utilization (Without Kines)",
+      "section": null,
+      "focus": "Caseload",
+      "source": "Formula",
+      "role": "J",
+      "target_type": null,
+      "target_value": null,
+      "unit": "percent",
+      "definitions": [
+        "Row 2: ======\nID#AAAB5DgiDgo\n    (2026-04-29 16:56:49)\nShows the percent of available appointments that were booked for the service for a given week"
+      ],
+      "source_links": [],
+      "excel_info": {
+        "column": "CY",
+        "is_hidden": false
+      },
+      "is_calculated": true
+    },
+    "global_pt_tp_given": {
+      "name": "PT TP Given",
+      "section": null,
+      "focus": null,
+      "source": null,
+      "role": null,
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [],
+      "source_links": [],
+      "excel_info": {
+        "column": "CZ",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "global_tp_utilization": {
+      "name": "TP Utilization",
+      "section": null,
+      "focus": null,
+      "source": null,
+      "role": null,
+      "target_type": null,
+      "target_value": null,
+      "unit": "percent",
+      "definitions": [],
+      "source_links": [],
+      "excel_info": {
+        "column": "DA",
+        "is_hidden": false
+      },
+      "is_calculated": true
+    },
+    "financial_rmt_total_revenue": {
+      "name": "RMT Total Revenue",
+      "section": null,
+      "focus": "Financial",
+      "source": "EMR",
+      "role": "J",
+      "target_type": null,
+      "target_value": null,
+      "unit": "currency",
+      "definitions": [
+        "Row 2: ======\nID#AAAB5DgiDhw\n    (2026-04-29 16:56:49)\nEnter the total amount of revenue billed for the service for a given week"
+      ],
+      "source_links": [],
+      "excel_info": {
+        "column": "DC",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "marketing_rmt_ax": {
+      "name": "RMT \nAx",
+      "section": null,
+      "focus": "Marketing",
+      "source": "EMR",
+      "role": "J",
+      "target_type": null,
+      "target_value": 3062.5,
+      "unit": null,
+      "definitions": [
+        "Row 2: ======\nID#AAAB5DgiDf0\n    (2026-04-29 16:56:49)\nEnter the total number of Assessments completed for the service for a given week"
+      ],
+      "source_links": [],
+      "excel_info": {
+        "column": "DD",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "commitment_rmt_tx": {
+      "name": "RMT \nTx",
+      "section": null,
+      "focus": "Commitment",
+      "source": "EMR",
+      "role": "J",
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [
+        "Row 2: ======\nID#AAAB5DgiDhI\n    (2026-04-29 16:56:49)\nEnter the total number of treatments completed for the service for a given week"
+      ],
+      "source_links": [],
+      "excel_info": {
+        "column": "DE",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "commitment_pva_4_wk_avg_df": {
+      "name": "PVA \n(4 wk avg)",
+      "section": null,
+      "focus": "Commitment",
+      "source": "Formula",
+      "role": "J",
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [
+        "Row 2: ======\nID#AAAB5DgiDgA\n    (2026-04-29 16:56:49)\nPVA (Patient Visit Average) \n\nShows the average number of treatments sessions per Assessment completed for the service for a running 4 week average"
+      ],
+      "source_links": [],
+      "excel_info": {
+        "column": "DF",
+        "is_hidden": false
+      },
+      "is_calculated": true
+    },
+    "commitment_rmt_available_slots": {
+      "name": "RMT Available slots",
+      "section": null,
+      "focus": "Commitment",
+      "source": "EMR",
+      "role": "J",
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [
+        "Row 2: ======\nID#AAAB5DgiDgU\n    (2026-04-29 16:56:49)\nEnter the total number of available appointments for the service for a given week\n\nNote: This is number of appointments NOT hours"
+      ],
+      "source_links": [],
+      "excel_info": {
+        "column": "DG",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "caseload_rmt_hours_available": {
+      "name": "RMT Hours Available",
+      "section": null,
+      "focus": "Caseload",
+      "source": "EMR",
+      "role": "J",
+      "target_type": null,
+      "target_value": "Total Available = 32",
+      "unit": null,
+      "definitions": [],
+      "source_links": [],
+      "excel_info": {
+        "column": "DH",
+        "is_hidden": false
+      },
+      "is_calculated": true
+    },
+    "caseload_rmt_booked_hours": {
+      "name": "RMT BOOKED hours",
+      "section": null,
+      "focus": "Caseload",
+      "source": "EMR",
+      "role": "J",
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [],
+      "source_links": [],
+      "excel_info": {
+        "column": "DI",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "commitment_rmt_arrived_slots": {
+      "name": "RMT Arrived slots",
+      "section": null,
+      "focus": "Commitment",
+      "source": "EMR",
+      "role": "J",
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [
+        "Row 2: ======\nID#AAAB5DgiDh0\n    (2026-04-29 16:56:49)\nEnter the total number of booked appointments (Ax + Tx) for the service for a given week\n\nNote: This is number of appointments NOT hours"
+      ],
+      "source_links": [],
+      "excel_info": {
+        "column": "DJ",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "caseload_utilization": {
+      "name": "Utilization",
+      "section": null,
+      "focus": "Caseload",
+      "source": "Formula",
+      "role": "J",
+      "target_type": null,
+      "target_value": null,
+      "unit": "percent",
+      "definitions": [
+        "Row 2: ======\nID#AAAB5DgiDg4\n    (2026-04-29 16:56:49)\nShows the percent of available appointments that were booked for the service for a given week"
+      ],
+      "source_links": [],
+      "excel_info": {
+        "column": "DK",
+        "is_hidden": false
+      },
+      "is_calculated": true
+    },
+    "global_rmt_tp_given": {
+      "name": "RMT TP Given",
+      "section": null,
+      "focus": null,
+      "source": null,
+      "role": null,
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [],
+      "source_links": [],
+      "excel_info": {
+        "column": "DL",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "global_tp_utilization_dm": {
+      "name": "TP Utilization",
+      "section": null,
+      "focus": null,
+      "source": null,
+      "role": null,
+      "target_type": null,
+      "target_value": null,
+      "unit": "percent",
+      "definitions": [],
+      "source_links": [],
+      "excel_info": {
+        "column": "DM",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "financial_chiro_total_revenue": {
+      "name": "CHIRO \nTotal Revenue",
+      "section": null,
+      "focus": "Financial",
+      "source": "EMR",
+      "role": "J",
+      "target_type": null,
+      "target_value": null,
+      "unit": "currency",
+      "definitions": [
+        "Row 2: ======\nID#AAAB5DgiDfc\n    (2026-04-29 16:56:49)\nEnter the total amount of revenue billed for the service for a given week"
+      ],
+      "source_links": [],
+      "excel_info": {
+        "column": "DO",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "marketing_chiro_ax": {
+      "name": "CHIRO\nAx",
+      "section": null,
+      "focus": "Marketing",
+      "source": "EMR",
+      "role": "J",
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [
+        "Row 2: ======\nID#AAAB5DgiDfw\n    (2026-04-29 16:56:49)\nEnter the total number of Assessments completed for the service for a given week"
+      ],
+      "source_links": [],
+      "excel_info": {
+        "column": "DP",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "commitment_chiro_tx": {
+      "name": "CHIRO\nTx",
+      "section": null,
+      "focus": "Commitment",
+      "source": "EMR",
+      "role": "J",
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [
+        "Row 2: ======\nID#AAAB5DgiDfY\n    (2026-04-29 16:56:49)\nEnter the total number of treatments completed for the service for a given week"
+      ],
+      "source_links": [],
+      "excel_info": {
+        "column": "DQ",
+        "is_hidden": false
+      },
+      "is_calculated": true
+    },
+    "commitment_pva_4_wk_avg_dr": {
+      "name": "PVA \n(4 wk avg)",
+      "section": null,
+      "focus": "Commitment",
+      "source": "Formula",
+      "role": "J",
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [
+        "Row 2: ======\nID#AAAB5DgiDhU\n    (2026-04-29 16:56:49)\nPVA (Patient Visit Average) \n\nShows the average number of treatments sessions per Assessment completed for the service for a running 4 week average"
+      ],
+      "source_links": [],
+      "excel_info": {
+        "column": "DR",
+        "is_hidden": false
+      },
+      "is_calculated": true
+    },
+    "commitment_chiro_available_slots": {
+      "name": "CHIRO Available slots",
+      "section": null,
+      "focus": "Commitment",
+      "source": "EMR",
+      "role": "J",
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [
+        "Row 2: ======\nID#AAAB5DgiDiQ\n    (2026-04-29 16:56:49)\nEnter the total number of available appointments for the service for a given week\n\nNote: This is number of appointments NOT hours"
+      ],
+      "source_links": [],
+      "excel_info": {
+        "column": "DS",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "caseload_chiro_hours_available": {
+      "name": "Chiro Hours Available",
+      "section": null,
+      "focus": "Caseload",
+      "source": "EMR",
+      "role": "J",
+      "target_type": null,
+      "target_value": "Total Available = 34",
+      "unit": null,
+      "definitions": [],
+      "source_links": [],
+      "excel_info": {
+        "column": "DT",
+        "is_hidden": false
+      },
+      "is_calculated": true
+    },
+    "caseload_chiro_booked_hours": {
+      "name": "Chiro BOOKED hours",
+      "section": null,
+      "focus": "Caseload",
+      "source": "EMR",
+      "role": "J",
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [],
+      "source_links": [],
+      "excel_info": {
+        "column": "DU",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "commitment_chiro_arrived_slots": {
+      "name": "CHIRO Arrived slots",
+      "section": null,
+      "focus": "Commitment",
+      "source": "EMR",
+      "role": "J",
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [
+        "Row 2: ======\nID#AAAB5DgiDfE\n    (2026-04-29 16:56:49)\nEnter the total number of booked appointments (Ax + Tx) for the service for a given week\n\nNote: This is number of appointments NOT hours"
+      ],
+      "source_links": [],
+      "excel_info": {
+        "column": "DV",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "caseload_utilization_dw": {
+      "name": "Utilization",
+      "section": null,
+      "focus": "Caseload",
+      "source": "Formula",
+      "role": "J",
+      "target_type": null,
+      "target_value": null,
+      "unit": "percent",
+      "definitions": [
+        "Row 2: ======\nID#AAAB5DgiDgc\n    (2026-04-29 16:56:49)\nShows the percent of available appointments that were booked for the service for a given week"
+      ],
+      "source_links": [],
+      "excel_info": {
+        "column": "DW",
+        "is_hidden": false
+      },
+      "is_calculated": true
+    },
+    "global_chiro_tp_given": {
+      "name": "CHIRO TP Given",
+      "section": null,
+      "focus": null,
+      "source": null,
+      "role": null,
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [],
+      "source_links": [],
+      "excel_info": {
+        "column": "DX",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "global_tp_utilization_dy": {
+      "name": "TP Utilization",
+      "section": null,
+      "focus": null,
+      "source": null,
+      "role": null,
+      "target_type": null,
+      "target_value": null,
+      "unit": "percent",
+      "definitions": [],
+      "source_links": [],
+      "excel_info": {
+        "column": "DY",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "financial_pelvic_health_total_revenue": {
+      "name": "Pelvic Health\nTotal Revenue",
+      "section": null,
+      "focus": "Financial",
+      "source": "EMR",
+      "role": "J",
+      "target_type": null,
+      "target_value": null,
+      "unit": "currency",
+      "definitions": [
+        "Row 2: ======\nID#AAAB5DgiDfo\n    (2026-04-29 16:56:49)\nEnter the total amount of revenue billed for the service for a given week"
+      ],
+      "source_links": [],
+      "excel_info": {
+        "column": "EA",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "marketing_pelvic_health_ax": {
+      "name": "Pelvic Health\nAx",
+      "section": null,
+      "focus": "Marketing",
+      "source": "EMR",
+      "role": "J",
+      "target_type": null,
+      "target_value": "Target = 1",
+      "unit": null,
+      "definitions": [
+        "Row 2: ======\nID#AAAB5DgiDhc\n    (2026-04-29 16:56:49)\nEnter the total number of Assessments completed for the service for a given week"
+      ],
+      "source_links": [],
+      "excel_info": {
+        "column": "EB",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "commitment_pelvic_health_tx": {
+      "name": "Pelvic Health\nTx",
+      "section": null,
+      "focus": "Commitment",
+      "source": "EMR",
+      "role": "J",
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [
+        "Row 2: ======\nID#AAAB5DgiDgI\n    (2026-04-29 16:56:49)\nEnter the total number of treatments completed for the service for a given week"
+      ],
+      "source_links": [],
+      "excel_info": {
+        "column": "EC",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "commitment_pva_4_wk_avg_ed": {
+      "name": "PVA \n(4 wk avg)",
+      "section": null,
+      "focus": "Commitment",
+      "source": "Formula",
+      "role": "J",
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [
+        "Row 2: ======\nID#AAAB5DgiDhA\n    (2026-04-29 16:56:49)\nPVA (Patient Visit Average) \n\nShows the average number of treatments sessions per Assessment completed for the service for a running 4 week average"
+      ],
+      "source_links": [],
+      "excel_info": {
+        "column": "ED",
+        "is_hidden": false
+      },
+      "is_calculated": true
+    },
+    "global_true_pva_average": {
+      "name": "True PVA Average",
+      "section": null,
+      "focus": null,
+      "source": null,
+      "role": null,
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [],
+      "source_links": [],
+      "excel_info": {
+        "column": "EF",
+        "is_hidden": false
+      },
+      "is_calculated": true
+    },
+    "global_utilization": {
+      "name": "Utilization",
+      "section": null,
+      "focus": null,
+      "source": null,
+      "role": null,
+      "target_type": null,
+      "target_value": null,
+      "unit": "percent",
+      "definitions": [],
+      "source_links": [],
+      "excel_info": {
+        "column": "EG",
+        "is_hidden": false
+      },
+      "is_calculated": true
+    },
+    "global_pva_average": {
+      "name": "PVA AVERAGE",
+      "section": null,
+      "focus": null,
+      "source": null,
+      "role": null,
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [],
+      "source_links": [],
+      "excel_info": {
+        "column": "EI",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "commitment_pelvic_health_available_slots": {
+      "name": "Pelvic Health Available slots",
+      "section": null,
+      "focus": "Commitment",
+      "source": "EMR",
+      "role": null,
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [
+        "Row 2: ======\nID#AAAB5DgiDiY\n    (2026-04-29 16:56:49)\nEnter the total number of available appointments for the service for a given week\n\nNote: This is number of appointments NOT hours"
+      ],
+      "source_links": [],
+      "excel_info": {
+        "column": "EJ",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "commitment_pelvic_health_arrived_slots": {
+      "name": "Pelvic Health Arrived slots",
+      "section": null,
+      "focus": "Commitment",
+      "source": "EMR",
+      "role": null,
+      "target_type": null,
+      "target_value": null,
+      "unit": null,
+      "definitions": [
+        "Row 2: ======\nID#AAAB5DgiDgw\n    (2026-04-29 16:56:49)\nEnter the total number of booked appointments (Ax + Tx) for the service for a given week\n\nNote: This is number of appointments NOT hours"
+      ],
+      "source_links": [],
+      "excel_info": {
+        "column": "EK",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    },
+    "caseload_utilization_el": {
+      "name": "Utilization",
+      "section": null,
+      "focus": "Caseload",
+      "source": "Formula",
+      "role": null,
+      "target_type": null,
+      "target_value": null,
+      "unit": "percent",
+      "definitions": [
+        "Row 2: ======\nID#AAAB5DgiDgg\n    (2026-04-29 16:56:49)\nShows the percent of available appointments that were booked for the service for a given week"
+      ],
+      "source_links": [],
+      "excel_info": {
+        "column": "EL",
+        "is_hidden": false
+      },
+      "is_calculated": false
+    }
+  },
+  "observations": [
+    {
+      "date": "2026-02-16",
+      "metric_id": "financial_total_revenue_all_services",
+      "value": 40454.28,
+      "formula": null
+    },
+    {
+      "date": "2026-02-16",
+      "metric_id": "collection_total_payments_all_services",
+      "value": 48464.61,
+      "formula": null
+    },
+    {
+      "date": "2026-02-16",
+      "metric_id": "collection_revenue_collected_4_wk_avg",
+      "value": 1.00441053,
+      "formula": "=if(B8=\"\",\"Formula\",sum(H8:H10)/sum(B8:B10))"
+    },
+    {
+      "date": "2026-02-16",
+      "metric_id": "collection_ar_90_days",
+      "value": 0.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-16",
+      "metric_id": "collection_total_ar",
+      "value": 56578.43,
+      "formula": null
+    },
+    {
+      "date": "2026-02-16",
+      "metric_id": "online_bookings_via_jane",
+      "value": 36.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-16",
+      "metric_id": "marketing_total_ax_all_services",
+      "value": 42.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-16",
+      "metric_id": "marketing_ax_4_week_avg",
+      "value": 50.66666667,
+      "formula": "=AVERAGE(O8:O10)"
+    },
+    {
+      "date": "2026-02-16",
+      "metric_id": "caseload_of_rx_clinic_wide",
+      "value": 377,
+      "formula": "=450-19-54"
+    },
+    {
+      "date": "2026-02-16",
+      "metric_id": "global_clinic_pva",
+      "value": 7.440789474,
+      "formula": "=Q8/P8"
+    },
+    {
+      "date": "2026-02-16",
+      "metric_id": "global_unlabeled_metric_u",
+      "value": 498.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-16",
+      "metric_id": "treatment_plan_submitted",
+      "value": 498.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-16",
+      "metric_id": "treatment_plan_unsubmitted",
+      "value": 100.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-16",
+      "metric_id": "new_clients_cancelled_total_ax",
+      "value": 14.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-16",
+      "metric_id": "cancelled_ax_online",
+      "value": 0.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-16",
+      "metric_id": "cancelled_ax_online_aa",
+      "value": 0.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-16",
+      "metric_id": "caseload_cancellation",
+      "value": 0.1707317073,
+      "formula": "=77/(77+374)"
+    },
+    {
+      "date": "2026-02-16",
+      "metric_id": "marketing_google_reviews",
+      "value": 1227.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-16",
+      "metric_id": "phone_performance_total_calls_5530",
+      "value": 255.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-16",
+      "metric_id": "phone_performance_missed_calls",
+      "value": 17.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-16",
+      "metric_id": "phone_performance_answer_rate",
+      "value": 0.93,
+      "formula": null
+    },
+    {
+      "date": "2026-02-16",
+      "metric_id": "phone_performance_booking_rate",
+      "value": 0.69,
+      "formula": null
+    },
+    {
+      "date": "2026-02-16",
+      "metric_id": "phone_performance_nbo",
+      "value": 26.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-16",
+      "metric_id": "phone_performance_dnb",
+      "value": 8.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-16",
+      "metric_id": "phone_performance_winback_ax_only",
+      "value": 0.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-16",
+      "metric_id": "tx_plan_nar_collected_at_ax",
+      "value": 39.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-16",
+      "metric_id": "tx_plan_nar_collected_at_ax_as",
+      "value": 0.9285714286,
+      "formula": "=AR8/O8"
+    },
+    {
+      "date": "2026-02-16",
+      "metric_id": "tx_plan_average_prescribed",
+      "value": 2.87,
+      "formula": null
+    },
+    {
+      "date": "2026-02-16",
+      "metric_id": "tx_plan_booked_prescribed_total",
+      "value": 0.5357142857,
+      "formula": "=60/112"
+    },
+    {
+      "date": "2026-02-16",
+      "metric_id": "of_tx_plan_given",
+      "value": 20.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-16",
+      "metric_id": "tx_plan_used",
+      "value": 0.4761904762,
+      "formula": "=AV8/O8"
+    },
+    {
+      "date": "2026-02-09",
+      "metric_id": "financial_total_revenue_all_services",
+      "value": 42360.64,
+      "formula": null
+    },
+    {
+      "date": "2026-02-09",
+      "metric_id": "collection_total_payments_all_services",
+      "value": 34022.04,
+      "formula": null
+    },
+    {
+      "date": "2026-02-09",
+      "metric_id": "collection_revenue_collected_4_wk_avg",
+      "value": 0.9083875359,
+      "formula": "=if(B9=\"\",\"Formula\",sum(H9:H10)/sum(B9:B10))"
+    },
+    {
+      "date": "2026-02-09",
+      "metric_id": "collection_ar_90_days",
+      "value": 182.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-09",
+      "metric_id": "collection_total_ar",
+      "value": 65386.72,
+      "formula": null
+    },
+    {
+      "date": "2026-02-09",
+      "metric_id": "online_bookings_via_jane",
+      "value": 45.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-09",
+      "metric_id": "marketing_total_ax_all_services",
+      "value": 54.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-09",
+      "metric_id": "marketing_ax_4_week_avg",
+      "value": 55,
+      "formula": "=AVERAGE(O9:O10)"
+    },
+    {
+      "date": "2026-02-09",
+      "metric_id": "caseload_of_rx_clinic_wide",
+      "value": 377,
+      "formula": "=450-19-54"
+    },
+    {
+      "date": "2026-02-09",
+      "metric_id": "global_clinic_pva",
+      "value": 6.854545455,
+      "formula": "=Q9/P9"
+    },
+    {
+      "date": "2026-02-09",
+      "metric_id": "treatment_plan_submitted",
+      "value": 669.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-09",
+      "metric_id": "treatment_plan_unsubmitted",
+      "value": 129.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-09",
+      "metric_id": "new_clients_cancelled_total_ax",
+      "value": 8.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-09",
+      "metric_id": "cancelled_ax_online",
+      "value": 0.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-09",
+      "metric_id": "cancelled_ax_online_aa",
+      "value": 0.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-09",
+      "metric_id": "caseload_cancellation",
+      "value": 0.1149897331,
+      "formula": "=56/(56+431)"
+    },
+    {
+      "date": "2026-02-09",
+      "metric_id": "caseload_of_fall_offs_total",
+      "value": 113.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-09",
+      "metric_id": "marketing_fb_reviews",
+      "value": 0.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-09",
+      "metric_id": "marketing_google_reviews",
+      "value": 1224.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-09",
+      "metric_id": "phone_performance_total_calls_5530",
+      "value": 281.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-09",
+      "metric_id": "phone_performance_missed_calls",
+      "value": 15.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-09",
+      "metric_id": "phone_performance_answer_rate",
+      "value": 0.94,
+      "formula": null
+    },
+    {
+      "date": "2026-02-09",
+      "metric_id": "phone_performance_booking_rate",
+      "value": 0.73,
+      "formula": null
+    },
+    {
+      "date": "2026-02-09",
+      "metric_id": "phone_performance_nbo",
+      "value": 26.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-09",
+      "metric_id": "phone_performance_dnb",
+      "value": 7.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-09",
+      "metric_id": "phone_performance_winback_ax_only",
+      "value": 0.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-09",
+      "metric_id": "tx_plan_nar_collected_at_ax",
+      "value": 56.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-09",
+      "metric_id": "tx_plan_nar_collected_at_ax_as",
+      "value": 1.037037037,
+      "formula": "=AR9/O9"
+    },
+    {
+      "date": "2026-02-09",
+      "metric_id": "tx_plan_average_prescribed",
+      "value": 3.26,
+      "formula": null
+    },
+    {
+      "date": "2026-02-09",
+      "metric_id": "tx_plan_booked_prescribed_total",
+      "value": 0.5433526012,
+      "formula": "=94/173"
+    },
+    {
+      "date": "2026-02-09",
+      "metric_id": "of_tx_plan_given",
+      "value": 30.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-09",
+      "metric_id": "tx_plan_used",
+      "value": 0.5555555556,
+      "formula": "=AV9/O9"
+    },
+    {
+      "date": "2026-02-09",
+      "metric_id": "financial_pt_total_revenue",
+      "value": 36099.38,
+      "formula": null
+    },
+    {
+      "date": "2026-02-09",
+      "metric_id": "marketing_pt_ax",
+      "value": 47.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-09",
+      "metric_id": "commitment_pt_tx",
+      "value": 319,
+      "formula": "=382-16-47"
+    },
+    {
+      "date": "2026-02-09",
+      "metric_id": "pt_ahs_ax",
+      "value": 10.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-09",
+      "metric_id": "of_total_ax_ahs",
+      "value": 0.2127659574,
+      "formula": "=CM9/CK9"
+    },
+    {
+      "date": "2026-02-09",
+      "metric_id": "pt_ahs_tx_total",
+      "value": 37.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-09",
+      "metric_id": "pt_ahs_ax_hip_knee_class",
+      "value": 5.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-09",
+      "metric_id": "pt_ahs_tx_hip_knee_class",
+      "value": 5.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-09",
+      "metric_id": "commitment_pva_4_wk_avg",
+      "value": 6.434782609,
+      "formula": "=sum(CL9:CL10)/sum(CK9:CK10)"
+    },
+    {
+      "date": "2026-02-09",
+      "metric_id": "caseload_pt_total_available_hours_total",
+      "value": 290.25,
+      "formula": "=338\n-47.75"
+    },
+    {
+      "date": "2026-02-09",
+      "metric_id": "caseload_pt_total_available_hours_pt_only",
+      "value": 172.5,
+      "formula": "=189.25\n-16.75"
+    },
+    {
+      "date": "2026-02-09",
+      "metric_id": "caseload_pt_total_booked_hours",
+      "value": 166.75,
+      "formula": null
+    },
+    {
+      "date": "2026-02-09",
+      "metric_id": "caseload_pt_arrived_appts",
+      "value": 382.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-09",
+      "metric_id": "caseload_utilization_with_kines",
+      "value": 0.5745047373,
+      "formula": "=CV9/CT9"
+    },
+    {
+      "date": "2026-02-09",
+      "metric_id": "caseload_utilization_without_kines",
+      "value": 0.9666666667,
+      "formula": "=CV9/CU9"
+    },
+    {
+      "date": "2026-02-09",
+      "metric_id": "global_pt_tp_given",
+      "value": 30.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-09",
+      "metric_id": "global_tp_utilization",
+      "value": 0.6382978723,
+      "formula": "=CZ9/CK9"
+    },
+    {
+      "date": "2026-02-09",
+      "metric_id": "financial_rmt_total_revenue",
+      "value": 355.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-09",
+      "metric_id": "marketing_rmt_ax",
+      "value": 1.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-09",
+      "metric_id": "commitment_rmt_tx",
+      "value": 2.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-09",
+      "metric_id": "commitment_pva_4_wk_avg_df",
+      "value": 2.333333333,
+      "formula": "=if(DD9=\"\",\"Formula\",sum(DE9:DE10)/sum(DD9:DD10))"
+    },
+    {
+      "date": "2026-02-09",
+      "metric_id": "caseload_rmt_hours_available",
+      "value": 3.75,
+      "formula": null
+    },
+    {
+      "date": "2026-02-09",
+      "metric_id": "caseload_rmt_booked_hours",
+      "value": 4.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-09",
+      "metric_id": "commitment_rmt_arrived_slots",
+      "value": 3.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-09",
+      "metric_id": "caseload_utilization",
+      "value": 1.066666667,
+      "formula": "=DI9/DH9"
+    },
+    {
+      "date": "2026-02-09",
+      "metric_id": "global_rmt_tp_given",
+      "value": 0.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-09",
+      "metric_id": "global_tp_utilization_dm",
+      "value": 0.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-09",
+      "metric_id": "financial_chiro_total_revenue",
+      "value": 4458.9,
+      "formula": null
+    },
+    {
+      "date": "2026-02-09",
+      "metric_id": "marketing_chiro_ax",
+      "value": 4.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-09",
+      "metric_id": "commitment_chiro_tx",
+      "value": 48,
+      "formula": "=55-7"
+    },
+    {
+      "date": "2026-02-09",
+      "metric_id": "commitment_pva_4_wk_avg_dr",
+      "value": 10.2,
+      "formula": "=sum(DQ9:DQ10)/sum(DP9:DP10)"
+    },
+    {
+      "date": "2026-02-09",
+      "metric_id": "caseload_chiro_hours_available",
+      "value": 28.25,
+      "formula": "=31\n-2.75"
+    },
+    {
+      "date": "2026-02-09",
+      "metric_id": "caseload_chiro_booked_hours",
+      "value": 25.25,
+      "formula": null
+    },
+    {
+      "date": "2026-02-09",
+      "metric_id": "commitment_chiro_arrived_slots",
+      "value": 55.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-09",
+      "metric_id": "caseload_utilization_dw",
+      "value": 0.8938053097,
+      "formula": "=DU9/DT9"
+    },
+    {
+      "date": "2026-02-09",
+      "metric_id": "global_chiro_tp_given",
+      "value": 0.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-09",
+      "metric_id": "global_tp_utilization_dy",
+      "value": 0.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-09",
+      "metric_id": "financial_pelvic_health_total_revenue",
+      "value": 2355.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-09",
+      "metric_id": "marketing_pelvic_health_ax",
+      "value": 2.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-09",
+      "metric_id": "commitment_pelvic_health_tx",
+      "value": 17.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-09",
+      "metric_id": "commitment_pva_4_wk_avg_ed",
+      "value": 1.5,
+      "formula": "=if(EB10=\"\",\"Formula\",sum(EC10)/sum(EB10))"
+    },
+    {
+      "date": "2026-02-09",
+      "metric_id": "global_true_pva_average",
+      "value": 6.522522523,
+      "formula": "=sum(CL9:CL10,DE9:DE10,DQ9:DQ10,EC9:EC10)/sum(CK9:CK10,DD9:DD10,DP9:DP10,EB9:EB10)"
+    },
+    {
+      "date": "2026-02-09",
+      "metric_id": "global_utilization",
+      "value": 0.8449922379,
+      "formula": "=AVERAGE(DW9,DK9,CX9)"
+    },
+    {
+      "date": "2026-02-02",
+      "metric_id": "financial_total_revenue_all_services",
+      "value": 39202.17,
+      "formula": null
+    },
+    {
+      "date": "2026-02-02",
+      "metric_id": "collection_total_payments_all_services",
+      "value": 40068.6,
+      "formula": null
+    },
+    {
+      "date": "2026-02-02",
+      "metric_id": "collection_revenue_collected_4_wk_avg",
+      "value": 1.022101583,
+      "formula": "=if(B10=\"\",\"Formula\",sum(H10)/sum(B10))"
+    },
+    {
+      "date": "2026-02-02",
+      "metric_id": "collection_ar_90_days",
+      "value": 60.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-02",
+      "metric_id": "collection_total_ar",
+      "value": 57239.65,
+      "formula": null
+    },
+    {
+      "date": "2026-02-02",
+      "metric_id": "online_bookings_via_jane",
+      "value": 43.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-02",
+      "metric_id": "marketing_total_ax_all_services",
+      "value": 56.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-02",
+      "metric_id": "marketing_ax_4_week_avg",
+      "value": 56,
+      "formula": "=AVERAGE(O10)"
+    },
+    {
+      "date": "2026-02-02",
+      "metric_id": "caseload_of_rx_clinic_wide",
+      "value": 340,
+      "formula": "=412-15-57"
+    },
+    {
+      "date": "2026-02-02",
+      "metric_id": "global_clinic_pva",
+      "value": 6.071428571,
+      "formula": "=Q10/P10"
+    },
+    {
+      "date": "2026-02-02",
+      "metric_id": "treatment_plan_submitted",
+      "value": 599.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-02",
+      "metric_id": "treatment_plan_unsubmitted",
+      "value": 44.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-02",
+      "metric_id": "new_clients_cancelled_total_ax",
+      "value": 9.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-02",
+      "metric_id": "cancelled_ax_online",
+      "value": 0.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-02",
+      "metric_id": "cancelled_ax_online_aa",
+      "value": 0.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-02",
+      "metric_id": "caseload_cancellation",
+      "value": 0.1236203091,
+      "formula": "=56/(56+397)"
+    },
+    {
+      "date": "2026-02-02",
+      "metric_id": "caseload_of_fall_offs_total",
+      "value": 103.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-02",
+      "metric_id": "marketing_fb_reviews",
+      "value": 0.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-02",
+      "metric_id": "marketing_google_reviews",
+      "value": 1217.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-02",
+      "metric_id": "phone_performance_total_calls_5530",
+      "value": 282.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-02",
+      "metric_id": "phone_performance_missed_calls",
+      "value": 16.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-02",
+      "metric_id": "phone_performance_answer_rate",
+      "value": 0.94,
+      "formula": null
+    },
+    {
+      "date": "2026-02-02",
+      "metric_id": "phone_performance_booking_rate",
+      "value": 0.78,
+      "formula": null
+    },
+    {
+      "date": "2026-02-02",
+      "metric_id": "phone_performance_nbo",
+      "value": 33.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-02",
+      "metric_id": "phone_performance_dnb",
+      "value": 7.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-02",
+      "metric_id": "phone_performance_winback_ax_only",
+      "value": 2.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-02",
+      "metric_id": "tx_plan_nar_collected_at_ax",
+      "value": 56.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-02",
+      "metric_id": "tx_plan_nar_collected_at_ax_as",
+      "value": 1,
+      "formula": "=AR10/O10"
+    },
+    {
+      "date": "2026-02-02",
+      "metric_id": "tx_plan_average_prescribed",
+      "value": 3.35,
+      "formula": null
+    },
+    {
+      "date": "2026-02-02",
+      "metric_id": "tx_plan_booked_prescribed_total",
+      "value": 0.5303867403,
+      "formula": "=96/181"
+    },
+    {
+      "date": "2026-02-02",
+      "metric_id": "of_tx_plan_given",
+      "value": 38.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-02",
+      "metric_id": "tx_plan_used",
+      "value": 0.6785714286,
+      "formula": "=AV10/O10"
+    },
+    {
+      "date": "2026-02-02",
+      "metric_id": "financial_pt_total_revenue",
+      "value": 30394.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-02",
+      "metric_id": "marketing_pt_ax",
+      "value": 45.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-02",
+      "metric_id": "commitment_pt_tx",
+      "value": 273,
+      "formula": "=329-11-45"
+    },
+    {
+      "date": "2026-02-02",
+      "metric_id": "pt_ahs_ax",
+      "value": 11.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-02",
+      "metric_id": "of_total_ax_ahs",
+      "value": 0.2444444444,
+      "formula": "=CM10/CK10"
+    },
+    {
+      "date": "2026-02-02",
+      "metric_id": "pt_ahs_tx_total",
+      "value": 37.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-02",
+      "metric_id": "pt_ahs_ax_hip_knee_class",
+      "value": 2.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-02",
+      "metric_id": "pt_ahs_tx_hip_knee_class",
+      "value": 6.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-02",
+      "metric_id": "commitment_pva_4_wk_avg",
+      "value": 6.066666667,
+      "formula": "=sum(CL10)/sum(CK10)"
+    },
+    {
+      "date": "2026-02-02",
+      "metric_id": "caseload_pt_total_available_hours_total",
+      "value": 273.5,
+      "formula": "=313.25\n-39.75"
+    },
+    {
+      "date": "2026-02-02",
+      "metric_id": "caseload_pt_total_available_hours_pt_only",
+      "value": 139.25,
+      "formula": "=153.5\n-14.25"
+    },
+    {
+      "date": "2026-02-02",
+      "metric_id": "caseload_pt_total_booked_hours",
+      "value": 138.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-02",
+      "metric_id": "caseload_pt_arrived_appts",
+      "value": 329.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-02",
+      "metric_id": "caseload_utilization_with_kines",
+      "value": 0.5045703839,
+      "formula": "=CV10/CT10"
+    },
+    {
+      "date": "2026-02-02",
+      "metric_id": "caseload_utilization_without_kines",
+      "value": 0.9910233393,
+      "formula": "=CV10/CU10"
+    },
+    {
+      "date": "2026-02-02",
+      "metric_id": "global_pt_tp_given",
+      "value": 38.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-02",
+      "metric_id": "global_tp_utilization",
+      "value": 0.8444444444,
+      "formula": "=CZ10/CK10"
+    },
+    {
+      "date": "2026-02-02",
+      "metric_id": "financial_rmt_total_revenue",
+      "value": 775.5,
+      "formula": null
+    },
+    {
+      "date": "2026-02-02",
+      "metric_id": "marketing_rmt_ax",
+      "value": 2.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-02",
+      "metric_id": "commitment_rmt_tx",
+      "value": 5.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-02",
+      "metric_id": "commitment_pva_4_wk_avg_df",
+      "value": 2.5,
+      "formula": "=if(DD10=\"\",\"Formula\",sum(DE10)/sum(DD10))"
+    },
+    {
+      "date": "2026-02-02",
+      "metric_id": "caseload_rmt_hours_available",
+      "value": 8,
+      "formula": "=8.5\n-0.5"
+    },
+    {
+      "date": "2026-02-02",
+      "metric_id": "caseload_rmt_booked_hours",
+      "value": 8.75,
+      "formula": null
+    },
+    {
+      "date": "2026-02-02",
+      "metric_id": "commitment_rmt_arrived_slots",
+      "value": 7.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-02",
+      "metric_id": "caseload_utilization",
+      "value": 1.09375,
+      "formula": "=DI10/DH10"
+    },
+    {
+      "date": "2026-02-02",
+      "metric_id": "global_rmt_tp_given",
+      "value": 0.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-02",
+      "metric_id": "global_tp_utilization_dm",
+      "value": 0.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-02",
+      "metric_id": "financial_chiro_total_revenue",
+      "value": 5649.9,
+      "formula": null
+    },
+    {
+      "date": "2026-02-02",
+      "metric_id": "marketing_chiro_ax",
+      "value": 6.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-02",
+      "metric_id": "commitment_chiro_tx",
+      "value": 54,
+      "formula": "=62-8"
+    },
+    {
+      "date": "2026-02-02",
+      "metric_id": "commitment_pva_4_wk_avg_dr",
+      "value": 9,
+      "formula": "=sum(DQ10)/sum(DP10)"
+    },
+    {
+      "date": "2026-02-02",
+      "metric_id": "caseload_chiro_hours_available",
+      "value": 35.25,
+      "formula": "=37.5\n-2.25"
+    },
+    {
+      "date": "2026-02-02",
+      "metric_id": "caseload_chiro_booked_hours",
+      "value": 30.75,
+      "formula": null
+    },
+    {
+      "date": "2026-02-02",
+      "metric_id": "commitment_chiro_arrived_slots",
+      "value": 62.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-02",
+      "metric_id": "caseload_utilization_dw",
+      "value": 0.8723404255,
+      "formula": "=DU10/DT10"
+    },
+    {
+      "date": "2026-02-02",
+      "metric_id": "global_chiro_tp_given",
+      "value": 0.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-02",
+      "metric_id": "global_tp_utilization_dy",
+      "value": 0.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-02",
+      "metric_id": "financial_pelvic_health_total_revenue",
+      "value": 1215.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-02",
+      "metric_id": "marketing_pelvic_health_ax",
+      "value": 4.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-02",
+      "metric_id": "commitment_pelvic_health_tx",
+      "value": 6.0,
+      "formula": null
+    },
+    {
+      "date": "2026-02-02",
+      "metric_id": "commitment_pva_4_wk_avg_ed",
+      "value": "#REF!",
+      "formula": "=if(#REF!=\"\",\"Formula\",sum(#REF!)/sum(#REF!))"
+    },
+    {
+      "date": "2026-02-02",
+      "metric_id": "global_true_pva_average",
+      "value": 5.929824561,
+      "formula": "=sum(CL10,DE10,DQ10,EC10)/sum(CK10,DD10,DP10,EB10)"
+    },
+    {
+      "date": "2026-02-02",
+      "metric_id": "global_utilization",
+      "value": 0.8235536031,
+      "formula": "=AVERAGE(DW10,DK10,CX10)"
+    }
+  ],
+  "rules": [
+    {
+      "range": "B8:B10",
+      "type": "colorScale",
+      "operator": null,
+      "formula": []
+    },
+    {
+      "range": "I8:I10",
+      "type": "colorScale",
+      "operator": null,
+      "formula": []
+    },
+    {
+      "range": "I8:I10",
+      "type": "cellIs",
+      "operator": "equal",
+      "formula": [
+        "\"Formula\""
+      ]
+    },
+    {
+      "range": "AL8:AL10",
+      "type": "colorScale",
+      "operator": null,
+      "formula": []
+    },
+    {
+      "range": "AY8:AY10",
+      "type": "colorScale",
+      "operator": null,
+      "formula": []
+    },
+    {
+      "range": "AY8:AY10",
+      "type": "cellIs",
+      "operator": "equal",
+      "formula": [
+        "\"Formula\""
+      ]
+    },
+    {
+      "range": "DD8:DD10 DP8:DP10 EB8:EB10",
+      "type": "colorScale",
+      "operator": null,
+      "formula": []
+    },
+    {
+      "range": "CX8:DA10 DL8:DM10 DX8:DY10",
+      "type": "cellIs",
+      "operator": "equal",
+      "formula": [
+        "\"Formula\""
+      ]
+    },
+    {
+      "range": "CR8:CR10",
+      "type": "cellIs",
+      "operator": "equal",
+      "formula": [
+        "\"Formula\""
+      ]
+    },
+    {
+      "range": "CR8:CR10",
+      "type": "colorScale",
+      "operator": null,
+      "formula": []
+    },
+    {
+      "range": "DF8:DF10 DR8:DR10",
+      "type": "cellIs",
+      "operator": "equal",
+      "formula": [
+        "\"Formula\""
+      ]
+    },
+    {
+      "range": "DF8:DF10 DR8:DR10",
+      "type": "colorScale",
+      "operator": null,
+      "formula": []
+    },
+    {
+      "range": "CZ8:CZ10 DK8:DM10",
+      "type": "cellIs",
+      "operator": "equal",
+      "formula": [
+        "\"Formula\""
+      ]
+    },
+    {
+      "range": "BA8:BA10",
+      "type": "colorScale",
+      "operator": null,
+      "formula": []
+    },
+    {
+      "range": "DR8:DR10",
+      "type": "colorScale",
+      "operator": null,
+      "formula": []
+    },
+    {
+      "range": "CA1:CA10",
+      "type": "colorScale",
+      "operator": null,
+      "formula": []
+    },
+    {
+      "range": "EL8:EL10",
+      "type": "colorScale",
+      "operator": null,
+      "formula": []
+    },
+    {
+      "range": "AM2:AM4 AM6:AM10",
+      "type": "colorScale",
+      "operator": null,
+      "formula": []
+    },
+    {
+      "range": "AS8:AS10",
+      "type": "colorScale",
+      "operator": null,
+      "formula": []
+    },
+    {
+      "range": "AJ1:AJ10 AK5:AP5",
+      "type": "colorScale",
+      "operator": null,
+      "formula": []
+    },
+    {
+      "range": "O1:O6 O8:O10",
+      "type": "colorScale",
+      "operator": null,
+      "formula": []
+    },
+    {
+      "range": "CK1:CK10",
+      "type": "colorScale",
+      "operator": null,
+      "formula": []
+    },
+    {
+      "range": "AW1:AW6 AW8:AW10",
+      "type": "colorScale",
+      "operator": null,
+      "formula": []
+    },
+    {
+      "range": "J7 K1:K10",
+      "type": "colorScale",
+      "operator": null,
+      "formula": []
+    },
+    {
+      "range": "J1:J10",
+      "type": "colorScale",
+      "operator": null,
+      "formula": []
+    },
+    {
+      "range": "EG8:EH10",
+      "type": "colorScale",
+      "operator": null,
+      "formula": []
+    },
+    {
+      "range": "CJ8:CJ10",
+      "type": "colorScale",
+      "operator": null,
+      "formula": []
+    }
+  ]
+}
